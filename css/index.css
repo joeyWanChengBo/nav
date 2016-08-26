@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.banner618 a {
+    height: 613px;
+    width: 100%;
+    background: url(../images/banner450.jpg) no-repeat center top;
+    position: absolute;  /*绝对定位，脱离标准流，不占位置*/
+    z-index: 10;
+}
+
+/*main部分开始*/
+.main {
+    position: relative;   /*不脱离标准流，占据位置*/
+    z-index: 100;
+}
+.main-left {
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.arrow {
+    display: none;
+}
+.main-left:hover .arrow {
+    display: block;
+}
+.arrow-left, .arrow-right {
+    width: 30px;
+    height: 64px;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    font: 400 20px/64px "宋体";
+    color: #fff;
+    background: rgba(0,0,0,.4);
+}
+.arrow-left {
+    left: 0;
+}
+.arrow-right {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    left: 50%;
+    margin-left: -66px;
+    bottom: 8px;
+}
+.circle ul li {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #3E3E3E;
+    float: left;
+    margin: 0 2px;
+    color: #fff;
+    border-radius:  50%;
+}
+.circle ul li.current {
+    background-color: #ff160e;
+}
+
+
+
+.main-right {
+    width: 250px;
+    height: 454px;
+    /*background-color: blue;*/
+    float: right;
+    margin-top: 12px;
+}
+.main-right-top {
+    width: 248px;
+    height: 373px;
+    border: 1px solid #E9E9E9;
+    overflow: hidden;
+}
+.mrt-news {
+    height: 164px;
+    border-bottom: 1px dashed #E9E9E9;
+}
+.mrtn-head {
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 1px dotted #E9E9E9;
+    padding: 0 15px;
+}
+.mrtn-head h3 {
+    float: left;
+    font: 400 16px/31px "microsoft yahei";
+}
+.mrtn-head a {
+    float: right;
+}
+.mrtn-content {
+    padding: 12px 0 0 15px;
+}
+.mrtn-content ul li {
+    height: 23px;
+}
+.mrtn-content ul li.current {
+    font-weight: bold;
+
+}
+.mrtn-content ul li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.mrt-live ul {
+    width: 252px;
+}
+.mrt-live ul li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E9E9E9;
+    float: left;
+    border-top: none;
+    margin-left: -1px;
+}
+.mrt-live ul li.current {
+    background: url(../images/quan.png) no-repeat right top;
+}
+.mrt-live ul li a {
+    height: 26px;
+    display: block;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+.mrt-live  li  i {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    background: url(../images/live.png) no-repeat 0 0;
+}
+.main-right-bottom {
+    margin-top: 4px;
+}
+
+/*main部分结束*/
+
+.today {
+    position: relative;
+    z-index: 100;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.today-left {
+    float: left;
+}
+.today-right {
+    float: left;
+    width: 1000px;
+    position: relative;
+
+}
+.today-right ul {
+    width: 500%;
+}
+.today-right ul li{
+    float: left;
+    margin-right: 1px;
+}
+.today-right:hover .arrow {
+    display:block;
+}
